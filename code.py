@@ -12,7 +12,7 @@ The promotional campaign for your company has been offered with a 5% discount.
 Best regards,"""
 
 # Load the Excel file containing the email list
-df = pd.read_excel('C:......../Desktop/dMailList.xlsx')
+df = pd.read_excel('C:......../Desktop/MailList.xlsx')
 
 # Extract the email addresses as a list
 recipients = df['Email'].tolist()
